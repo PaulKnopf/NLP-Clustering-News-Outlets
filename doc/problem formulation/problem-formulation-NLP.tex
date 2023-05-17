@@ -10,26 +10,20 @@
 \usepackage{titling}
 \lstloadlanguages{SQL}
 
-\title{\textbf{Natural Language Processing} \\[0.5em] \large{\textbf{Project Description - Clustering of YouTube News Channel Videos based on Title \& Description} \\[0.5em]} }
+\title{\textbf{Natural Language Processing} \\[0.5em] \large{\textbf{Problem Formulation - Clustering News Outlet Output} \\[0.5em]} }
 \date{}
 \predate{}
 \postdate{}
 \posttitle{\par\end{center}}
+\author{Paul \& Zoe \& Max}
 
 \begin{document}
 \maketitle
-\section{Data}
-We have collected the \textbf{metadata of uploaded videos} on the following Youtube news channels (DW-News, CNN-News, BBC-News, Al-Jazeera-English, Fox-News and CCTV-Video-News-Agency) since 25-03-2023. The collected information of the videos has the following attributes.\\
-\begin{center}
-\begin{tabular}{ |c|c|c|c|c|c| } 
- \hline
- Title & Views & Video-Length & Description & Time-Upload & Time-Crawling \\ 
- \hline
- ... & ... & ... & ... & ... & ... \\
- \hline
-\end{tabular}
-\end{center}
-The data is retrieved every 15 minutes. In the appendix you can find a part of such a data set.
+\section{Motivation}
+\begin{itemize}
+    \item Overview of content on news channels broadcasting in English on YouTube.
+    \item Comparing the focus of the topic areas of the different news stations with each other.
+\end{itemize}
 \section{Goal(s)}
 \begin{itemize}
 	\item \textbf{Clustering of data by topics} (i.e. topics like \dq Ukraine War\dq{}, \dq Economy\dq{}, \dq Politics\dq{}, ...) \\
@@ -88,5 +82,39 @@ The data is retrieved every 15 minutes. In the appendix you can find a part of s
 		\item Comparison of similar clusters (i.e. matching categories)
 		\item ...
 	\end{itemize}
+\end{itemize}
+\section{Data}
+We have collected the \textbf{metadata of uploaded videos} on the following Youtube news channels (DW-News, CNN-News, BBC-News, Al-Jazeera-English, Fox-News and CCTV-Video-News-Agency) since 25-03-2023. The collected information of the videos has the following attributes.\\
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c|c| } 
+ \hline
+ Title & Views & Video-Length & Description & Time-Upload & Time-Crawling &  Channel\\ 
+ \hline
+ ... & ... & ... & ... & ... & ... & ... \\
+ \hline
+\end{tabular}
+\end{center}
+The data is retrieved every 15 minutes. In the appendix you can find a part of such a data set.
+\section{Models/methods/algorithms}
+\section{Tasks of each team member with description}
+\begin{itemize}
+    \item Data processing (Zoe)
+    \item Create model overview (Max/Paul)
+    \item Problem formulation (Paul)
+    \item Power Point presentation (Zoe)
+    \item Model application \& tweaking (all)
+\end{itemize}
+\section{Your plan and schedule for the project steps}
+\begin{itemize}
+    \item Data processing -
+    \item Model selection -
+    \item Model application -
+    \item Evaluation -
+\end{itemize}
+\section{Potential problems}
+\begin{itemize}
+    \item No sufficiently large data set.
+    \item Incomplete video description.
+    \item During scraping deleted commas and semicolons.
 \end{itemize}
 \end{document}

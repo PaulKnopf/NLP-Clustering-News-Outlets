@@ -1,6 +1,16 @@
 import pandas
 
 
+def process_data():
+    csv_file = None
+    # TODO: add additional column 'channel' to each data set
+    # TODO: combine all the data sets
+    # TODO: group by 'Title' & ' Description' with max ' Views'
+    # note the messed up column names -> ' Description' (white spaces)
+    # TODO: output as CSV-file to designated folder with current date in name
+    return csv_file
+
+
 if __name__ == '__main__':
     dw_news_data_frame = pandas.read_csv("..\\data\\DW-News.csv")
 

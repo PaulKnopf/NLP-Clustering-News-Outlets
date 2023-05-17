@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\UseRawInputEncoding
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\usepackage{titling}
+\lstloadlanguages{SQL}
+
+\title{\textbf{Natural Language Processing} \\[0.5em] \large{\textbf{Project Description - Clustering of YouTube News Channel Videos based on Title \& Description} \\[0.5em]} }
+\date{}
+\predate{}
+\postdate{}
+\posttitle{\par\end{center}}
+
+\begin{document}
+\maketitle
+\section{Data}
+We have collected the \textbf{metadata of uploaded videos} on the following Youtube news channels (DW-News, CNN-News, BBC-News, Al-Jazeera-English, Fox-News and CCTV-Video-News-Agency) since 25-03-2023. The collected information of the videos has the following attributes.\\
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ Title & Views & Video-Length & Description & Time-Upload & Time-Crawling \\ 
+ \hline
+ ... & ... & ... & ... & ... & ... \\
+ \hline
+\end{tabular}
+\end{center}
+The data is retrieved every 15 minutes. In the appendix you can find a part of such a data set.
+\section{Goal(s)}
+\begin{itemize}
+	\item \textbf{Clustering of data by topics} (i.e. topics like \dq Ukraine War\dq{}, \dq Economy\dq{}, \dq Politics\dq{}, ...) \\
+	\begin{itemize}
+		\item Different methods of clustering
+		\begin{itemize}
+			\begin{minipage}{0.1cm}
+				\begin{align*}
+					\left[ \begin{array}{lllll}
+					\\
+					\\
+					\\
+					\\
+					\\
+					\end{array}
+					\right.
+				\end{align*}
+			\end{minipage}
+			\begin{minipage}{4.5cm}
+			\item training based modells
+				\begin{itemize}
+					\item active learning
+					\item supervised learning
+				\end{itemize}
+			\end{minipage}
+			\begin{minipage}{0.1cm}
+				\begin{align*}
+					\left. \begin{array}{lllll}
+					\\
+					\\
+					\\
+					\\
+					\\
+					\end{array}
+					\right]
+				\end{align*}
+			\end{minipage}
+			\begin{minipage}{7cm}
+			If needed, since the data is raw, there is no training data. A training data-set would have to be created. Also, in light of newly emerging topics, this is most likely not the best approach.
+			\end{minipage}
+			\item none training based modells
+		\end{itemize}
+	\end{itemize}
+	\item[\labelitemi] \textbf{Comparison of clusters within single news station}
+	\begin{itemize}
+		\item Distance between clusters
+		\item Size and popularity of clusters
+		\item Cluster development over time
+		\item Relation between emotionality of title and view count
+		\item Sentiments of news channel on identified topics
+		\item ...
+	\end{itemize}
+	\item[\labelitemi] \textbf{Comparing clusters of different news channels}
+	\begin{itemize}
+		\item Differences and overlaps of clusters
+		\item Comparison of similar clusters (i.e. matching categories)
+		\item ...
+	\end{itemize}
+\end{itemize}
+\end{document}

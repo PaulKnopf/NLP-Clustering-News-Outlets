@@ -14,9 +14,12 @@ def load_data(dir="../data") -> pd.DataFrame:
     for channel in channelnames:
         filename = channel + ".csv"
         df1 = pd.read_csv(dir / filename)
+
         # clean leading and trailing whitespaces, if any
         df1.columns = [col.strip().lower() for col in df1.columns]
+        
         # add additional column 'Channel' to each data set
         df1["channel"] = channel
         df = pd.concat([df, df1])
-        return df
+    
+    return df

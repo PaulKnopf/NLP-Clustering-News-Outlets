@@ -2,6 +2,7 @@ import pandas as pd
 from datetime import date
 import matplotlib.pyplot as plt
 import numpy as np
+from utils import load_data
 
 # This function combines our 6 csv datasets from different channels into 1
 def process_data():

@@ -23,3 +23,18 @@ def load_data(dir="../data") -> pd.DataFrame:
         df = pd.concat([df, df1])
     
     return df
+
+
+def combine_record_to_string(record):
+    """
+    record should be Dict-like
+    record should contain keys "title" and "description"
+    this will return a single string containing title and description information
+    """
+
+    title = record["title"].strip()
+    description = record["description"].strip()
+
+    out = "Title: '{}' Description: '{}'".format(title, description)
+    return out
+

@@ -5,21 +5,7 @@ import numpy as np
 
 # This function combines our 6 csv datasets from different channels into 1
 def process_data():
-    # our filenames are predetermined:
-    filenames = ["Al-Jazeera-English", "BBC-News", "CCTV-Video-News-Agency", "CNN-News", "DW-News", "Fox-News"]
-
-    # initialize an empty dataframe
-    df = pd.DataFrame()
-
-    # combine all the datasets
-    for name in filenames:
-        df1 = pd.read_csv("..\\data\\" + name + ".csv")
-        # clean leading and trailing whitespaces, if any
-        for col_name in df1.columns:
-            col_name.strip()
-        # add additional column 'Channel' to each data set
-        df1["Channel"] = name
-        df = pd.concat([df, df1])
+    df = load_data()
 
     # group by 'Title' & ' Description', and sort by descending ' Views'
     df.groupby(by=['Title', ' Description'])

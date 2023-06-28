@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-def load_data(dir="../data") -> pd.DataFrame:
+def load_csv_data(dir="../data/all_records_csvs") -> pd.DataFrame:
     dir = Path(dir)
 
     # our filenames are predetermined:

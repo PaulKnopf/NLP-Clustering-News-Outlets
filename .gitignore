@@ -1,1 +1,4 @@
 */__pycache__
+data/embeddings/
+data/*/cache-*
+data/distance_matrix

@@ -1,8 +1,4 @@
 */__pycache__
-<<<<<<< HEAD
 data/embeddings/
 data/*/cache-*
-data/distance_matrix
-=======
-data/embeddings/
->>>>>>> dd91c2935ab04cf4a28f5a554d738942227a8f6d
+data/too_big/*

@@ -2,6 +2,10 @@
   "citation": "",
   "description": "",
   "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
     "title": {
       "dtype": "string",
       "_type": "Value"
@@ -10,15 +14,15 @@
       "dtype": "string",
       "_type": "Value"
     },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
     "channel": {
       "dtype": "string",
       "_type": "Value"
     },
-    "id": {
-      "dtype": "int64",
-      "_type": "Value"
-    },
-    "text": {
+    "text_clean": {
       "dtype": "string",
       "_type": "Value"
     }

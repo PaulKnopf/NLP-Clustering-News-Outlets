@@ -1,0 +1,32 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "channel": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text_clean": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

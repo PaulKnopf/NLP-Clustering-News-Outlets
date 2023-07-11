@@ -14,15 +14,11 @@
       "dtype": "string",
       "_type": "Value"
     },
-    "text": {
-      "dtype": "string",
-      "_type": "Value"
-    },
     "channel": {
       "dtype": "string",
       "_type": "Value"
     },
-    "text_clean": {
+    "text": {
       "dtype": "string",
       "_type": "Value"
     }

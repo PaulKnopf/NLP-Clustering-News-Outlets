@@ -2,11 +2,11 @@ import pandas as pd
 from datetime import date
 import matplotlib.pyplot as plt
 import numpy as np
-from utils import load_data
+from utils import load_csv_data
 
 # This function combines our 6 csv datasets from different channels into 1
 def process_data():
-    df = load_data()
+    df = load_csv_data()
 
     # group by 'Title' & ' Description', and sort by descending ' Views'
     df.groupby(by=['Title', ' Description'])

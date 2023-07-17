@@ -1,0 +1,56 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "views": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "time-stamp-upload-milliseconds": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "time-stamp": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "date-time-hr": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "upload-time-hr": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "upload-time-stamp": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video-length": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "video-length-milliseconds": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "channel": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
